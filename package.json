@@ -4,13 +4,13 @@
         "@rebble/clay": "1.0.8"
     },
     "keywords": [],
-    "name": "steps-and-hr-watchface",
+    "name": "steps-and-hr-watchface-dseg",
     "pebble": {
         "capabilities": [
             "configurable",
             "health"
         ],
-        "displayName": "Steps and HR Watchface based on 91 Dub",
+        "displayName": "Steps and HR DSEG Watchface",
         "enableMultiJS": true,
         "messageKeys": [
             "steps",
@@ -33,122 +33,6 @@
                     "type": "bitmap"
                 },
                 {
-                    "file": "images/sm-0.png",
-                    "name": "IMAGE_SM_0",
-                    "type": "png"
-                },
-                {
-                    "file": "images/separator.png",
-                    "name": "IMAGE_SEPARATOR",
-                    "type": "png"
-                },
-                {
-                    "file": "images/num_9.png",
-                    "name": "IMAGE_NUM_9",
-                    "type": "png"
-                },
-                {
-                    "file": "images/num_8.png",
-                    "name": "IMAGE_NUM_8",
-                    "type": "png"
-                },
-                {
-                    "file": "images/datenum_6.png",
-                    "name": "IMAGE_DATENUM_6",
-                    "type": "png"
-                },
-                {
-                    "file": "images/datenum_5.png",
-                    "name": "IMAGE_DATENUM_5",
-                    "type": "png"
-                },
-                {
-                    "file": "images/datenum_4.png",
-                    "name": "IMAGE_DATENUM_4",
-                    "type": "png"
-                },
-                {
-                    "file": "images/datenum_3.png",
-                    "name": "IMAGE_DATENUM_3",
-                    "type": "png"
-                },
-                {
-                    "file": "images/datenum_2.png",
-                    "name": "IMAGE_DATENUM_2",
-                    "type": "png"
-                },
-                {
-                    "file": "images/datenum_1.png",
-                    "name": "IMAGE_DATENUM_1",
-                    "type": "png"
-                },
-                {
-                    "file": "images/datenum_0.png",
-                    "name": "IMAGE_DATENUM_0",
-                    "type": "png"
-                },
-                {
-                    "file": "images/background.png",
-                    "name": "IMAGE_BACKGROUND",
-                    "targetPlatforms": null,
-                    "type": "png"
-                },
-                {
-                    "file": "images/background-invert.png",
-                    "name": "IMAGE_BACKGROUND_INVERT",
-                    "type": "png"
-                },
-                {
-                    "file": "images/datenum_7.png",
-                    "name": "IMAGE_DATENUM_7",
-                    "type": "png"
-                },
-                {
-                    "file": "images/datenum_8.png",
-                    "name": "IMAGE_DATENUM_8",
-                    "type": "png"
-                },
-                {
-                    "file": "images/datenum_9.png",
-                    "name": "IMAGE_DATENUM_9",
-                    "type": "png"
-                },
-                {
-                    "file": "images/day_fri.png",
-                    "name": "IMAGE_DAY_NAME_FRI",
-                    "type": "png"
-                },
-                {
-                    "file": "images/day_mon.png",
-                    "name": "IMAGE_DAY_NAME_MON",
-                    "type": "png"
-                },
-                {
-                    "file": "images/day_sat.png",
-                    "name": "IMAGE_DAY_NAME_SAT",
-                    "type": "png"
-                },
-                {
-                    "file": "images/day_sun.png",
-                    "name": "IMAGE_DAY_NAME_SUN",
-                    "type": "png"
-                },
-                {
-                    "file": "images/day_thu.png",
-                    "name": "IMAGE_DAY_NAME_THU",
-                    "type": "png"
-                },
-                {
-                    "file": "images/day_tue.png",
-                    "name": "IMAGE_DAY_NAME_TUE",
-                    "type": "png"
-                },
-                {
-                    "file": "images/day_wed.png",
-                    "name": "IMAGE_DAY_NAME_WED",
-                    "type": "png"
-                },
-                {
                     "file": "images/icon_battery.png",
                     "name": "IMAGE_BATTERY",
                     "type": "png"
@@ -164,153 +48,8 @@
                     "type": "png"
                 },
                 {
-                    "file": "images/icon_mail.png",
-                    "name": "IMAGE_EMAIL",
-                    "type": "png"
-                },
-                {
                     "file": "images/icon_meter.png",
                     "name": "IMAGE_METER_BAR",
-                    "type": "png"
-                },
-                {
-                    "file": "images/med-0.png",
-                    "name": "IMAGE_MED_0",
-                    "type": "png"
-                },
-                {
-                    "file": "images/med-1.png",
-                    "name": "IMAGE_MED_1",
-                    "type": "png"
-                },
-                {
-                    "file": "images/med-2.png",
-                    "name": "IMAGE_MED_2",
-                    "type": "png"
-                },
-                {
-                    "file": "images/med-3.png",
-                    "name": "IMAGE_MED_3",
-                    "type": "png"
-                },
-                {
-                    "file": "images/med-4.png",
-                    "name": "IMAGE_MED_4",
-                    "type": "png"
-                },
-                {
-                    "file": "images/med-5.png",
-                    "name": "IMAGE_MED_5",
-                    "type": "png"
-                },
-                {
-                    "file": "images/med-6.png",
-                    "name": "IMAGE_MED_6",
-                    "type": "png"
-                },
-                {
-                    "file": "images/med-7.png",
-                    "name": "IMAGE_MED_7",
-                    "type": "png"
-                },
-                {
-                    "file": "images/med-8.png",
-                    "name": "IMAGE_MED_8",
-                    "type": "png"
-                },
-                {
-                    "file": "images/med-9.png",
-                    "name": "IMAGE_MED_9",
-                    "type": "png"
-                },
-                {
-                    "file": "images/med-separator.png",
-                    "name": "IMAGE_MED_SEPARATOR",
-                    "type": "png"
-                },
-                {
-                    "file": "images/num_0.png",
-                    "name": "IMAGE_NUM_0",
-                    "type": "png"
-                },
-                {
-                    "file": "images/num_1.png",
-                    "name": "IMAGE_NUM_1",
-                    "type": "png"
-                },
-                {
-                    "file": "images/num_2.png",
-                    "name": "IMAGE_NUM_2",
-                    "type": "png"
-                },
-                {
-                    "file": "images/num_3.png",
-                    "name": "IMAGE_NUM_3",
-                    "type": "png"
-                },
-                {
-                    "file": "images/num_4.png",
-                    "name": "IMAGE_NUM_4",
-                    "type": "png"
-                },
-                {
-                    "file": "images/num_5.png",
-                    "name": "IMAGE_NUM_5",
-                    "type": "png"
-                },
-                {
-                    "file": "images/num_6.png",
-                    "name": "IMAGE_NUM_6",
-                    "type": "png"
-                },
-                {
-                    "file": "images/num_7.png",
-                    "name": "IMAGE_NUM_7",
-                    "type": "png"
-                },
-                {
-                    "file": "images/sm-1.png",
-                    "name": "IMAGE_SM_1",
-                    "type": "png"
-                },
-                {
-                    "file": "images/sm-2.png",
-                    "name": "IMAGE_SM_2",
-                    "type": "png"
-                },
-                {
-                    "file": "images/sm-3.png",
-                    "name": "IMAGE_SM_3",
-                    "type": "png"
-                },
-                {
-                    "file": "images/sm-4.png",
-                    "name": "IMAGE_SM_4",
-                    "type": "png"
-                },
-                {
-                    "file": "images/sm-5.png",
-                    "name": "IMAGE_SM_5",
-                    "type": "png"
-                },
-                {
-                    "file": "images/sm-6.png",
-                    "name": "IMAGE_SM_6",
-                    "type": "png"
-                },
-                {
-                    "file": "images/sm-7.png",
-                    "name": "IMAGE_SM_7",
-                    "type": "png"
-                },
-                {
-                    "file": "images/sm-8.png",
-                    "name": "IMAGE_SM_8",
-                    "type": "png"
-                },
-                {
-                    "file": "images/sm-9.png",
-                    "name": "IMAGE_SM_9",
                     "type": "png"
                 },
                 {
@@ -321,69 +60,73 @@
                     "type": "bitmap"
                 },
                 {
-                    "file": "images/time_format_24H.png",
-                    "name": "IMAGE_24_HOUR_MODE",
-                    "type": "png"
+                    "characterRegex": "[:0-9]",
+                    "file": "fonts/DS-Digital-Bold.ttf",
+                    "name": "FONT_DIGITALE_64",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt",
+                        "chalk",
+                        "diorite",
+                        "flint"
+                    ],
+                    "type": "font"
                 },
                 {
-                    "file": "images/time_format_PM.png",
-                    "name": "IMAGE_PM_MODE",
-                    "type": "png"
+                    "characterRegex": "[0-9:]",
+                    "file": "fonts/DS-Digital-Bold.ttf",
+                    "name": "FONT_DIGITALE_92",
+                    "targetPlatforms": [
+                        "emery",
+                        "gabbro"
+                    ],
+                    "type": "font"
                 },
                 {
-                    "file": "images/tiny_0.png",
-                    "name": "IMAGE_TINY_0",
-                    "type": "png"
+                    "characterRegex": "[:0-9A-Z ]",
+                    "file": "fonts/DS-Digital-Bold.ttf",
+                    "name": "FONT_DIGITALE_22",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt",
+                        "chalk",
+                        "diorite",
+                        "flint"
+                    ],
+                    "type": "font"
                 },
                 {
-                    "file": "images/tiny_1.png",
-                    "name": "IMAGE_TINY_1",
-                    "type": "png"
+                    "characterRegex": "[:0-9A-Z ]",
+                    "file": "fonts/DS-Digital-Bold.ttf",
+                    "name": "FONT_DIGITALE_30",
+                    "targetPlatforms": [
+                        "emery",
+                        "gabbro"
+                    ],
+                    "type": "font"
                 },
                 {
-                    "file": "images/tiny_2.png",
-                    "name": "IMAGE_TINY_2",
-                    "type": "png"
+                    "characterRegex": "[0-9 A-Za-z%]",
+                    "file": "fonts/lucon.ttf",
+                    "name": "FONT_LUCIDIA_10",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt",
+                        "chalk",
+                        "diorite",
+                        "flint"
+                    ],
+                    "type": "font"
                 },
                 {
-                    "file": "images/tiny_3.png",
-                    "name": "IMAGE_TINY_3",
-                    "type": "png"
-                },
-                {
-                    "file": "images/tiny_4.png",
-                    "name": "IMAGE_TINY_4",
-                    "type": "png"
-                },
-                {
-                    "file": "images/tiny_5.png",
-                    "name": "IMAGE_TINY_5",
-                    "type": "png"
-                },
-                {
-                    "file": "images/tiny_6.png",
-                    "name": "IMAGE_TINY_6",
-                    "type": "png"
-                },
-                {
-                    "file": "images/tiny_7.png",
-                    "name": "IMAGE_TINY_7",
-                    "type": "png"
-                },
-                {
-                    "file": "images/tiny_8.png",
-                    "name": "IMAGE_TINY_8",
-                    "type": "png"
-                },
-                {
-                    "file": "images/tiny_9.png",
-                    "name": "IMAGE_TINY_9",
-                    "type": "png"
-                },
-                {
-                    "file": "images/tiny_percent.png",
-                    "name": "IMAGE_TINY_PERCENT",
-                    "type": "png"
+                    "characterRegex": "[0-9 A-Za-z%]",
+                    "file": "fonts/lucon.ttf",
+                    "name": "FONT_LUCIDIA_14",
+                    "targetPlatforms": [
+                        "emery",
+                        "gabbro"
+                    ],
+                    "type": "font"
                 },
                 {
                     "file": "images/menu_icon_91w.png",
@@ -398,6 +141,7 @@
             "aplite",
             "basalt",
             "diorite",
+            "emery",
             "flint"
         ],
         "uuid": "6fcd0de6-55bc-4c96-afa1-55c8618e9aa1",
@@ -405,5 +149,5 @@
             "watchface": true
         }
     },
-    "version": "2.1.0"
+    "version": "2.3.0"
 }
