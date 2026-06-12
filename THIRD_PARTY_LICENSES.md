@@ -33,42 +33,22 @@ DEALINGS IN THE SOFTWARE.
 
 ---
 
-## 2. Sub-components with separate licenses
+## 2. Fonts (Personal Use Only)
 
-The following components are included in 91 Dub v4.0 under their own licenses:
+The following fonts are used in this project and are licensed for **personal use only**.
+They may not be used for commercial purposes, projects that generate revenue,
+or work created for a paying client.
 
-### jQuery v1.10.1
-- Location: `server/js/jquery.min.js`
-- Copyright (c) 2005, 2013 jQuery Foundation, Inc.
-- License: MIT
-- Source: https://jquery.org/license
-
-### Bootstrap v3.0.2 (JavaScript & CSS)
-- Location: `server/js/bootstrap.js`, `server/js/bootstrap.min.js`, `server/css/bootstrap*.css`
-- Copyright 2013 Twitter, Inc.
-- License: Apache License 2.0
-- Source: https://www.apache.org/licenses/LICENSE-2.0
-
-### Glyphicons Halflings (Fonts)
-- Location: `server/fonts/glyphicons-halflings-regular.*`
-- Part of Bootstrap v3.0.2 by Twitter, Inc.
-- License: Apache License 2.0 (included with Bootstrap)
-- Source: https://getbootstrap.com
-
-### Spectrum Colorpicker v1.6.0
-- Location: `server/js/spectrum.js`, `server/css/spectrum.css`
-- Author: Brian Grinstead
-- License: MIT
-- Source: https://github.com/bgrins/spectrum
-
-### DS-Digital Bold Font
-- Location: `resources/fonts/DS-Digital-Bold.ttf`, `server/fonts/DS-Digital-Bold.*`
+### DS-Digital Bold
 - Author: Dusit Supasawat
-- Note: This font is **not freely licensed**. Please refer to the original
-  font license from the author before use or distribution.
-  - Source: https://www.dafont.com/ds-digital.font
+- License: Personal Use Only
+- Source: https://www.dafont.com/ds-digital.font
+- Used in: `resources/fonts/DS-Digital-Bold.ttf`
 
-  ---
+### Lucida Console (lucon)
+- License: Personal Use Only
+- Used in: `resources/fonts/lucon.ttf`
 
-  *This file was generated based on the license information found in the original
-  91 Dub v4.0 repository (https://github.com/orviwan/91-dub-4.0).*
+---
+
+*This file documents the third-party licenses for assets used in this project.*
